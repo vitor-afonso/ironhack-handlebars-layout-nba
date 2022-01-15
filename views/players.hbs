@@ -1,0 +1,10 @@
+<div class="container">
+  <h1>Players</h1>
+  <div class="row">
+    {{#each players}} 
+        {{> playerCard this}} 
+    {{/each}}
+  </div>
+</div>
+        <!-- withouth "this" we have one Lebron James for each element of the array -->
+        <!-- with this we set the info of the element we are iterating-- >
